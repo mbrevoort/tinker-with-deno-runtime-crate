@@ -1,0 +1,19 @@
+[package]
+name = "theno"
+version = "0.1.0"
+edition = "2018"
+resolver = "2"
+
+[dependencies]
+tokio = { version = "1.10.1", features = ["full"] }
+
+deno_runtime = "0.24.0"
+deno_core = "0.98.0"
+deno_web = "0.47.0"
+deno_broadcast_channel = "0.10.0"
+
+# toggle comments to references these locally
+# deno_runtime = { version = "0.24.0", path = "../deno/runtime" }
+# deno_core = { version = "0.98.0", path = "../deno/core" }
+# deno_web = { version = "0.47.0", path = "../deno/ext/web" }
+# deno_broadcast_channel = { version = "0.10.0", path = "../deno/ext/broadcast_channel" }
