@@ -1,1 +1,6 @@
 /target
+libtheno.a
+libtheno.d
+libtheno.dylib
+libtheno.so
+bin

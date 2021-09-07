@@ -2506,6 +2506,7 @@ dependencies = [
  "deno_core",
  "deno_runtime",
  "deno_web",
+ "libc",
  "tokio",
 ]
 

@@ -4,8 +4,12 @@ version = "0.1.0"
 edition = "2018"
 resolver = "2"
 
+[lib]
+crate-type = ["cdylib", "staticlib"]
+
 [dependencies]
 tokio = { version = "1.10.1", features = ["full"] }
+libc = "0.2.101"
 
 deno_runtime = "0.24.0"
 deno_core = "0.98.0"
